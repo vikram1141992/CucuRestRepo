@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 		}
 		)
 
-public class RunnerGetWithDataTable {
+public class RunnerGetWithDataTableTest {
 	
 	
 }
