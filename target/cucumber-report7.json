@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:27.432Z",
+        "line": 4,
+        "name": "POST request with json as string testing33",
+        "description": "",
+        "id": "post-request-with-json-as-string22;post-request-with-json-as-string-testing33",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the post request from String",
+            "match": {
+              "location": "com.basic.postStringJsonSD.MyPostStringJson.user_hit_the_post_request_with_String()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postStringJsonSD.MyPostStringJson.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "POST request with json as string22",
+    "description": "",
+    "id": "post-request-with-json-as-string22",
+    "keyword": "Feature",
+    "uri": "classpath:com/basic/postStringJsonSD/PostFromTextFile.feature",
+    "tags": []
+  }
+]

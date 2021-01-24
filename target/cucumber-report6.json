@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:26.130Z",
+        "line": 4,
+        "name": "34Test my POST request test",
+        "description": "",
+        "id": "77first-rest-assured-test-post;34test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 634000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the post request from text file",
+            "match": {
+              "location": "com.basic.postFromTextFileSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postFromTextFileSD.MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "77First Rest Assured test POST",
+    "description": "",
+    "id": "77first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/postFromTextFileFF/PostFromTextFile.feature",
+    "tags": []
+  }
+]

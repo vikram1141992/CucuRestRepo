@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:23.616Z",
+        "line": 18,
+        "name": "34.validate Get Request values with parameters",
+        "description": "",
+        "id": "validate-tags;34.validate-get-request-values-with-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Get response from bookstore application",
+            "match": {
+              "location": "com.basic.GetWithTags.GetWithParametersSD.get_response_from_bookstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 682000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "you request for Get response",
+            "match": {
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_request_for_Get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "you check for title \"Designing Evolvable Web APIs with ASP.NET\" at \"books[2].title\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Designing Evolvable Web APIs with ASP.NET\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"books[2].title\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(GetWithParametersSD.java:36)\r\n\tat ✽.you check for title \"ABCD\" at \"books[3].title\" value(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GetWithTags/GetRequestWithTags.feature:22)\r\n",
+              "duration": 36000000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "you check for title \"ABCD\" at \"books[3].title\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABCD\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"books[3].title\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T06:12:24.452Z",
+        "line": 25,
+        "name": "4.validate Get Request values with parameters",
+        "description": "",
+        "id": "validate-tags;4.validate-get-request-values-with-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Get response from bookstore application",
+            "match": {
+              "location": "com.basic.GetWithTags.GetWithParametersSD.get_response_from_bookstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "you request for Get response",
+            "match": {
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_request_for_Get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "you check for title \"Designing Evolvable Web APIs with ASP.NET\" at \"books[2].title\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Designing Evolvable Web APIs with ASP.NET\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"books[2].title\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(GetWithParametersSD.java:36)\r\n\tat ✽.you check for title \"ABCD\" at \"books[3].title\" value(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GetWithTags/GetRequestWithTags.feature:29)\r\n",
+              "duration": 20000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "you check for title \"ABCD\" at \"books[3].title\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABCD\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"books[3].title\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "validate tags",
+    "description": "",
+    "id": "validate-tags",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/GetWithTags/GetRequestWithTags.feature",
+    "tags": [
+      {
+        "name": "@Important",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

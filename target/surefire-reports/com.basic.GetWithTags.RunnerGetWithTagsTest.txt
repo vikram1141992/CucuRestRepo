@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.GetWithTags.RunnerGetWithTagsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.65 sec <<< FAILURE!
+34.validate Get Request values with parameters(validate tags)  Time elapsed: 0.84 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(GetWithParametersSD.java:36)
+	at ?.you check for title "ABCD" at "books[3].title" value(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GetWithTags/GetRequestWithTags.feature:22)
+
+4.validate Get Request values with parameters(validate tags)  Time elapsed: 0.732 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.GetWithTags.GetWithParametersSD.you_check_for_title_at_value(GetWithParametersSD.java:36)
+	at ?.you check for title "ABCD" at "books[3].title" value(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GetWithTags/GetRequestWithTags.feature:29)
+

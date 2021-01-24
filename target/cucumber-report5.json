@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:25.245Z",
+        "line": 3,
+        "name": "18.validate Google up and running",
+        "description": "",
+        "id": "validate--google;18.validate-google-up-and-running",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "you have google website link",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.you_have_google_website_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "you hit application url",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.you_hit_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NoClassDefFoundError: org/testng/Assert\r\n\tat com.basic.GoogleTest.FirstGoogleTestSD.youcheckifitsupandrunning(FirstGoogleTestSD.java:34)\r\n\tat ✽.you check if its up and running(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GoogleTest/FirstGoogleTestFF.feature:6)\r\nCaused by: java.lang.ClassNotFoundException: org.testng.Assert\r\n\tat java.net.URLClassLoader.findClass(Unknown Source)\r\n\tat java.lang.ClassLoader.loadClass(Unknown Source)\r\n\tat sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)\r\n\tat java.lang.ClassLoader.loadClass(Unknown Source)\r\n\tat com.basic.GoogleTest.FirstGoogleTestSD.youcheckifitsupandrunning(FirstGoogleTestSD.java:34)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:27)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "you check if its up and running",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.youcheckifitsupandrunning()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T06:12:25.727Z",
+        "line": 8,
+        "name": "28.validate Google up and running",
+        "description": "",
+        "id": "validate--google;28.validate-google-up-and-running",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "you have google website link",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.you_have_google_website_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "you hit application url",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.you_hit_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NoClassDefFoundError: org/testng/Assert\r\n\tat com.basic.GoogleTest.FirstGoogleTestSD.youcheckifitsupandrunning(FirstGoogleTestSD.java:34)\r\n\tat ✽.you check if its up and running(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GoogleTest/FirstGoogleTestFF.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "you check if its up and running",
+            "match": {
+              "location": "com.basic.GoogleTest.FirstGoogleTestSD.youcheckifitsupandrunning()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate  google",
+    "description": "",
+    "id": "validate--google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/GoogleTest/FirstGoogleTestFF.feature",
+    "tags": []
+  }
+]

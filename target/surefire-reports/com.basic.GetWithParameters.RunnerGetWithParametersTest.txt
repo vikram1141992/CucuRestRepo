@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.GetWithParameters.RunnerGetWithParametersTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.59 sec <<< FAILURE!
+3.validate Get Request values with parameters(Google test for parameters)  Time elapsed: 0.855 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.GetWithParameters.GetWithParametersSD.you_check_for_title_at_value(GetWithParametersSD.java:36)
+	at ?.you check for title "ABCD" at "books[3].title" value(file:///C:/Users/vikra/workspace/CucumberRestAssured/src/test/resources/com/basic/GetWithParameters/GetRequestWithParameters.feature:20)
+

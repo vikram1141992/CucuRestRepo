@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:17.520Z",
+        "line": 3,
+        "name": "1.validate headers",
+        "description": "",
+        "id": "validate-headers;1.validate-headers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Get response from bookstore application",
+            "match": {
+              "location": "com.basic.GetAndValidateHeaders.GetAndValidateHeadersSD.get_response_from_bookstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 785000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "you request for Get response",
+            "match": {
+              "location": "com.basic.GetAndValidateHeaders.GetAndValidateHeadersSD.you_request_for_Get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "You checks all headers of response",
+            "match": {
+              "location": "com.basic.GetAndValidateHeaders.GetAndValidateHeadersSD.You_checks_all_headers_of_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate headers",
+    "description": "",
+    "id": "validate-headers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/GetAndValidateHeaders/GetAndValidateHeaders.feature",
+    "tags": []
+  }
+]

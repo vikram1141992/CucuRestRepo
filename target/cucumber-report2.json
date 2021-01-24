@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-17T05:09:13.312Z",
+        "line": 3,
+        "name": "1.validate Get Request values with Datadriven",
+        "description": "",
+        "id": "test-datadriven;1.validate-get-request-values-with-datadriven",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Get response from bookstore application",
+            "match": {
+              "location": "com.basic.GetWithDataTable.GetWithDataTableSD.get_response_from_bookstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4595000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "you request for Get response",
+            "match": {
+              "location": "com.basic.GetWithDataTable.GetWithDataTableSD.you_request_for_Get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1707000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate following in json",
+            "match": {
+              "location": "com.basic.GetWithDataTable.GetWithDataTableSD.user_validate_following_in_json(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "books[0].title",
+                  "Git Pocket Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "books[1].title",
+                  "Learning JavaScript Design Patterns"
+                ]
+              },
+              {
+                "cells": [
+                  "books[2].title",
+                  "Designing Evolvable Web APIs with ASP.NET"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "you check if its up and running",
+            "match": {
+              "location": "com.basic.GetWithDataTable.GetWithDataTableSD.youcheckifitsupandrunning()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test datadriven",
+    "description": "",
+    "id": "test-datadriven",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/GetWithDataTable/GetRequestWithDataTable.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T06:12:28.419Z",
+        "line": 4,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "77first-rest-assured-test-post;test-my-post-request-test11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 558000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the post request with \"Kshipra\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kshipra\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T06:12:29.044Z",
+        "line": 8,
+        "name": "Test my POST request test22",
+        "description": "",
+        "id": "77first-rest-assured-test-post;test-my-post-request-test22",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user hit the post request with \"Gyaneshwar\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gyaneshwar\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T06:12:29.465Z",
+        "line": 12,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "77first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user hit the post request with \"Anagha\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anagha\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T06:12:29.860Z",
+        "line": 16,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "77first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 411000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user hit the post request with \"Swapnil\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Swapnil\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "77First Rest Assured test POST",
+    "description": "",
+    "id": "77first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/postUpdatedJsonFF/PostUpdatedJson.feature",
+    "tags": []
+  }
+]
