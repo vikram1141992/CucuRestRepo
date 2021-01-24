@@ -1,6 +1,8 @@
 package com.basic.GoogleTest;
 
-import org.testng.Assert;
+
+
+import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
